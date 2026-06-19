@@ -3,6 +3,7 @@
 s = "Python Programming"
 
 Output:
+Enter a string:Python Programming
 Total characters: 18
 Total words: 2
 

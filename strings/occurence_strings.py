@@ -17,5 +17,16 @@ for i in s:
         count+=1
 print("Occurecnce of characters:",count)
 '''
-Solution :2
+Solution:2
 '''
+def count_char(s, ch):
+    count = 0
+    for i in s:
+        if i == ch:
+            count += 1
+    return count
+
+s = input("Enter a string: ")
+ch = input("Enter the char you want to count: ")
+
+print("Occurrence:", count_char(s, ch))

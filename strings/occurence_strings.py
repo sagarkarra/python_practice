@@ -8,10 +8,6 @@ Enter the char you want to count:a
 Occurecnce of characters: 2
 
 Find how many times 'a' occurs.
-<<<<<<< HEAD
-
-=======
->>>>>>> d860c8f7c220405e513337b76894e4d147a65a85
 s=input("Enter a string:")
 count=0
 str=input("Enter the char you want to count:")

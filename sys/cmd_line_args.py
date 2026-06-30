@@ -15,9 +15,9 @@ for i in sys.argv:
 Solution 2:
 '''
 import sys
-def count_arguments():
+def print_arguments():
     print("The command line arguments are:")
     for i in sys.argv:
         print(i)
         
-count_arguments()
+print_arguments()

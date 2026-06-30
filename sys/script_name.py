@@ -1,7 +1,10 @@
 '''
 Input:
-
 Print Script Name
+
+Output:
+PS C:\Users\JYOTH\Desktop\python_practice\sys> & C:/Python311/python.exe c:/Users/JYOTH/Desktop/python_practice/sys/script_name.py
+The script name is script_name.py
 
 Print only the script's filename.
 

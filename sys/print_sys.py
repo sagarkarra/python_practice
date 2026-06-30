@@ -17,8 +17,4 @@ import sys
 def print_python_version():
     print("The version of Python is",sys.version)
 
-<<<<<<< HEAD
 print_python_version()
-=======
-print_python_version()
->>>>>>> a6de23c8cda976b1102bb59f5e7229cdea94bf36

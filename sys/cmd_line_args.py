@@ -20,8 +20,4 @@ def print_arguments():
     for i in sys.argv:
         print(i)
 
-<<<<<<< HEAD
 print_arguments()
-=======
-print_arguments()
->>>>>>> a6de23c8cda976b1102bb59f5e7229cdea94bf36

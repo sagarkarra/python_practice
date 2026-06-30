@@ -16,5 +16,4 @@ import sys
 
 def print_python_version():
     print("The version of Python is",sys.version)
-
 print_python_version()

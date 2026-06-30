@@ -19,5 +19,4 @@ def print_arguments():
     print("The command line arguments are:")
     for i in sys.argv:
         print(i)
-
 print_arguments()

@@ -8,16 +8,16 @@ c:/Users/JYOTH/Desktop/python_practice/cmd_line_args.py
 Print all command-line arguments passed to the script.
 
 import sys
-print("The command line arguments are:")
+print("The command line argument are:")
+count=0
 for i in sys.argv:
-    print(i)
+    count+=1
+    print(count)
 
 Solution 2:
 '''
 import sys
-def print_arguments():
-    print("The command line arguments are:")
-    for i in sys.argv:
-        print(i)
+def count_arguments():
+    print("Number of arguments:", len(sys.argv) - 1)
 
-print_arguments()
+count_arguments()

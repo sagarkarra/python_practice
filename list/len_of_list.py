@@ -8,6 +8,8 @@ Length of list: 5
 s=input("Enter values:").split()
 length=len(s)
 print("Length of list:",length)
+
+Solution 2:
 '''
 
 def len_list():

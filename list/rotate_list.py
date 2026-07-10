@@ -17,7 +17,5 @@ def rotate_list(s):
     if s:
         s.insert(0, s.pop())
     return s
-
 s = input("Enter the elements: ").split()
-
 print("Rotated list:", rotate_list(s))

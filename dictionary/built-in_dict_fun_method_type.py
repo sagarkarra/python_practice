@@ -13,4 +13,3 @@ def type_fun():
     print("Variable Type:%s" %type(d1))
 d1={"Name":"Sagar","Age":20,"Class":"First"}
 type_fun()
-

@@ -16,4 +16,4 @@ def dict_update():
     print("Updated dict:",d1)
 d1={'Name':'Vani','Age':7}
 d2={'Sex':'Female'} 
-dict_update
+dict_update()

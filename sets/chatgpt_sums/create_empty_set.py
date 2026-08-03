@@ -22,7 +22,7 @@ print(type(s))
 
 Solution 2:
 '''
-def create_empty_set_prs():
+def create_empty_set():
     print(s)
     print(type(s))
     s.add(10)

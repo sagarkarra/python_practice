@@ -13,9 +13,10 @@ print("After clear() method:",cities)
 
 Solution 2:
 '''
-def clear_set_prs():
-    print("Before clear() method:",cities)
+def clear_set(cities):
     cities.clear()
-    print("After clear() method:",cities)
+    return cities
 cities={"guntur","vijayawada","hyderabad"}
-clear_set_prs()
+print("Before clear() method:",cities)
+output1=clear_set(cities)
+print("After clear() method:",output1)

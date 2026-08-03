@@ -10,6 +10,9 @@ print(s)
 
 Solution 2: 
 '''
-def set_different():
-    s=set([100, "Python", True, 3.14])
-    print(s)
+def set_different(list1):
+    s=set(list1)
+    return s
+list1=[100, "Python", True, 3.14]
+output1=set_different(list1)
+print(output1)

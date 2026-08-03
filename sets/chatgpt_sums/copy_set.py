@@ -16,7 +16,7 @@ else:
 
 Solution 2:
 '''
-def copy_set_prs():
+def copy_set():
     x=s.copy()
     x.add("yellow")
     print(s)

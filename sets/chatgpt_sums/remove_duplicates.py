@@ -13,9 +13,9 @@ print(type(s))
 
 Solution 2:
 '''
-def remove_duplicates_prs():
+def remove_duplicates():
     s=[10, 20, 20, 30, 40, 40, 50]
     s=list(set(s))
     print(s)
     print(type(s))
-remove_duplicates_prs()
+remove_duplicates()

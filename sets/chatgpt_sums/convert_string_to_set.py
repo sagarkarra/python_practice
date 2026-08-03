@@ -9,7 +9,8 @@ print(se)
 
 Solution 2:
 '''
-def set_strings_prs():
-    se=set("python")
-    print(se)
-set_strings_prs()
+def set_string(set1):
+    return set1
+set1=set("python")
+output1=set_string(set1)
+print(output1)

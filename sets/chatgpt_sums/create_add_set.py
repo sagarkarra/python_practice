@@ -25,7 +25,7 @@ print(se)
 
 Solution 2:
 '''
-def add_set_prs():
+def add_set():
     s={10, 20, 30}
     print(s)
     s.add(40)
